@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7614a97eaab7223feed9e88b834f107f",
+    "revision": "679b803b01bcc23a363f35db8e4a0be5",
     "url": "/react-micro-blog/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-micro-blog/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "c15c9a68a0cb9662f8f2",
+    "revision": "f69852bd868c38368811",
     "url": "/react-micro-blog/static/css/main.0fd631e7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-micro-blog/static/js/2.865b751e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c15c9a68a0cb9662f8f2",
-    "url": "/react-micro-blog/static/js/main.21e99a70.chunk.js"
+    "revision": "f69852bd868c38368811",
+    "url": "/react-micro-blog/static/js/main.9c598831.chunk.js"
   },
   {
     "revision": "2e695b03a66f21b07cc9",
