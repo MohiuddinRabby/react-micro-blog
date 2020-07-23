@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-micro-blog/static/css/main.0fd631e7.chunk.css",
+    "main.js": "/react-micro-blog/static/js/main.d24051e0.chunk.js",
+    "main.js.map": "/react-micro-blog/static/js/main.d24051e0.chunk.js.map",
+    "runtime-main.js": "/react-micro-blog/static/js/runtime-main.bc019aa5.js",
+    "runtime-main.js.map": "/react-micro-blog/static/js/runtime-main.bc019aa5.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/react-micro-blog/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.18ae4d38.chunk.js": "/react-micro-blog/static/js/2.18ae4d38.chunk.js",
+    "static/js/2.18ae4d38.chunk.js.map": "/react-micro-blog/static/js/2.18ae4d38.chunk.js.map",
+    "index.html": "/react-micro-blog/index.html",
+    "precache-manifest.ba48c6ddd2130611cd1ad02dabbe4061.js": "/react-micro-blog/precache-manifest.ba48c6ddd2130611cd1ad02dabbe4061.js",
+    "service-worker.js": "/react-micro-blog/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/react-micro-blog/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.0fd631e7.chunk.css.map": "/react-micro-blog/static/css/main.0fd631e7.chunk.css.map",
+    "static/js/2.18ae4d38.chunk.js.LICENSE.txt": "/react-micro-blog/static/js/2.18ae4d38.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/react-micro-blog/static/media/logo.580ffd26.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc019aa5.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.18ae4d38.chunk.js",
+    "static/css/main.0fd631e7.chunk.css",
+    "static/js/main.d24051e0.chunk.js"
+  ]
+}
