@@ -2,7 +2,7 @@ const data = [
     {
         id: 1,
         author: 'Marquees Brownlee',
-        body: 'libero #voluptate eveniet aperiam sed sunt placeat suscipit molestias similique fugit nam natus expedita consequatur consequatur dolores quia eos et placeat', love: false
+        body: 'libero #volfuptate eveniet aperiam sed sunt placeat suscipit molestias similique fugit nam natus expedita consequatur consequatur dolores quia eos et placeat', love: false
     }, {
         id: 2,
         author: 'Jerry The Jack',

@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <Header />
         <Switch>
@@ -13,7 +13,7 @@ function App() {
           <Route path="*" component={NotFound} />
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
