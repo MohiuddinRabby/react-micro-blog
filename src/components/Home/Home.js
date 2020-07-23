@@ -13,24 +13,24 @@ const Home = () => {
   const handlePost = (e) => {
     e.preventDefault();
     const newPost = [
-        {
-          id: Math.floor(Math.random() * 20) + 30,
-          author: "Golam Mohiuddin",
-          body: text,
-        },
+      {
+        id: Math.floor(Math.random() * 20) + 30,
+        author: "Golam Mohiuddin",
+        body: text,
+      },
       ...posts,
     ];
     setPosts(newPost);
     setText("");
   };
+  //love post or not state
+  const [love, setLove] = useState(false);
   return (
     <section>
       <div className="container py-3">
         <div className="row">
-          <div className="col-md-3">
-            <div className="profile">
-              <img alt="profile-img" src="https://placeimg.com/40/40/people" />
-            </div>
+          <div className="col-md-3 profile">
+            <img alt="profile-img" src="https://placeimg.com/100/100/people" />
             <form>
               <textarea
                 rows="5"
