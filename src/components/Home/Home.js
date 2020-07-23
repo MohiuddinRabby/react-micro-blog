@@ -3,6 +3,7 @@ import Posts from "../Posts/Posts";
 import data from "../../postdata/postdata";
 import { useState } from "react";
 import "./Home.css";
+import About from "../About/About";
 const Home = () => {
   const fakedata = data;
   //getting some fake data to show on timeline
@@ -23,8 +24,6 @@ const Home = () => {
     setPosts(newPost);
     setText("");
   };
-  //love post or not state
-  const [love, setLove] = useState(false);
   return (
     <section>
       <div className="container py-3">
@@ -49,7 +48,9 @@ const Home = () => {
               <Posts key={post.id} posts={post}></Posts>
             ))}
           </div>
-          <div className="col-md-3"></div>
+          <div className="col-md-2">
+            <About></About>
+          </div>
         </div>
       </div>
     </section>
