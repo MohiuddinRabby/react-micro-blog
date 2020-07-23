@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/react-micro-blog/static/css/main.0fd631e7.chunk.css",
-    "main.js": "/react-micro-blog/static/js/main.835f0688.chunk.js",
-    "main.js.map": "/react-micro-blog/static/js/main.835f0688.chunk.js.map",
-    "runtime-main.js": "/react-micro-blog/static/js/runtime-main.09f01f3a.js",
-    "runtime-main.js.map": "/react-micro-blog/static/js/runtime-main.09f01f3a.js.map",
+    "main.js": "/react-micro-blog/static/js/main.21e99a70.chunk.js",
+    "main.js.map": "/react-micro-blog/static/js/main.21e99a70.chunk.js.map",
+    "runtime-main.js": "/react-micro-blog/static/js/runtime-main.63468046.js",
+    "runtime-main.js.map": "/react-micro-blog/static/js/runtime-main.63468046.js.map",
     "static/css/2.829c9cb5.chunk.css": "/react-micro-blog/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.d1c777ca.chunk.js": "/react-micro-blog/static/js/2.d1c777ca.chunk.js",
-    "static/js/2.d1c777ca.chunk.js.map": "/react-micro-blog/static/js/2.d1c777ca.chunk.js.map",
+    "static/js/2.865b751e.chunk.js": "/react-micro-blog/static/js/2.865b751e.chunk.js",
+    "static/js/2.865b751e.chunk.js.map": "/react-micro-blog/static/js/2.865b751e.chunk.js.map",
     "index.html": "/react-micro-blog/index.html",
-    "precache-manifest.a707a7f1de176517684055874d1bd469.js": "/react-micro-blog/precache-manifest.a707a7f1de176517684055874d1bd469.js",
+    "precache-manifest.e91bddc9d2a64485ede26e26f8bb3c76.js": "/react-micro-blog/precache-manifest.e91bddc9d2a64485ede26e26f8bb3c76.js",
     "service-worker.js": "/react-micro-blog/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/react-micro-blog/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.0fd631e7.chunk.css.map": "/react-micro-blog/static/css/main.0fd631e7.chunk.css.map",
-    "static/js/2.d1c777ca.chunk.js.LICENSE.txt": "/react-micro-blog/static/js/2.d1c777ca.chunk.js.LICENSE.txt",
+    "static/js/2.865b751e.chunk.js.LICENSE.txt": "/react-micro-blog/static/js/2.865b751e.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/react-micro-blog/static/media/logo.580ffd26.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.09f01f3a.js",
+    "static/js/runtime-main.63468046.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.d1c777ca.chunk.js",
+    "static/js/2.865b751e.chunk.js",
     "static/css/main.0fd631e7.chunk.css",
-    "static/js/main.835f0688.chunk.js"
+    "static/js/main.21e99a70.chunk.js"
   ]
 }
