@@ -2,7 +2,7 @@
   "name": "copy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://MohiuddinRabby.github.io/react-micro-blog",
+  "homepage": "https://mohiuddinrabby.github.io/react-micro-blog/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

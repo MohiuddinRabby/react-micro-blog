@@ -9,8 +9,12 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="*" component={NotFound} />
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
         </Switch>
       </Router>
     </div>
