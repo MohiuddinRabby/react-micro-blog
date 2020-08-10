@@ -1,13 +1,18 @@
 import React from "react";
 import Posts from "../Posts/Posts";
-import data from "../../postdata/postdata";
 import { useState } from "react";
 import "./Home.css";
 import About from "../About/About";
+import { useEffect } from "react";
 const Home = () => {
-  const fakedata = data;
-  //getting some fake data to show on timeline
-  const [posts, setPosts] = useState(fakedata);
+  const [posts, setPosts] = useState([]);
+  useEffect(() => {
+    fetch("https://api.icndb.com/jokes")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      });
+  }, []);
   //newpost state
   const [text, setText] = useState("");
   //onsubmit function
