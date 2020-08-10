@@ -15,4 +15,5 @@
 - You can either use your git commands to clone the project or you can simple download the whole Project
 - To install dependencies and run locally (follow the steps)
 > npm install
+
 > npm start
