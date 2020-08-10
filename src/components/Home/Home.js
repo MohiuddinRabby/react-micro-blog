@@ -6,11 +6,15 @@ import About from "../About/About";
 import { useEffect } from "react";
 const Home = () => {
   const [posts, setPosts] = useState([]);
+  //loading state
+  const [loading, setLoading] = useState(true);
+  //get api data
   useEffect(() => {
     fetch("https://api.icndb.com/jokes")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        setPosts(data.value.slice(10, 15));
+        setLoading(false);
       });
   }, []);
   //newpost state
@@ -21,8 +25,7 @@ const Home = () => {
     const newPost = [
       {
         id: Math.floor(Math.random() * 20) + 30,
-        author: "Golam Mohiuddin",
-        body: text,
+        joke: text,
       },
       ...posts,
     ];
@@ -49,9 +52,11 @@ const Home = () => {
             </form>
           </div>
           <div className="col-md-7">
-            {posts.map((post) => (
-              <Posts key={post.id} posts={post}></Posts>
-            ))}
+            {loading ? (
+              <h1 className="text-center">loading...</h1>
+            ) : (
+              posts.map((post) => <Posts key={post.id} posts={post}></Posts>)
+            )}
           </div>
           <div className="col-md-2">
             <About></About>
