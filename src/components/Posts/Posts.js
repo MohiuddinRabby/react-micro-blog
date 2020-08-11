@@ -4,13 +4,24 @@ const Posts = (props) => {
   const { joke } = props.posts;
   //like state
   const [like, setLike] = useState(false);
+  //like post
   const handleLikePost = () => {
     setLike(true);
   };
+  //unlike post after like
   const handleUnlikePost = () => {
     setLike(false);
   };
-
+  //comment state
+  const [comment, setComment] = useState([{ comment: "nice norris" }]);
+  const [commentText, setCommentText] = useState("");
+  //submit comment
+  const handleCommentPost = (e) => {
+    e.preventDefault();
+    const newComment = [{ comment: commentText }, ...comment];
+    setComment(newComment);
+    setCommentText("");
+  };
   return (
     <div>
       <h6>{joke}</h6>
@@ -23,7 +34,17 @@ const Posts = (props) => {
           <i className="far fa-thumbs-up"></i>
         </h5>
       )}
-
+      <form onSubmit={handleCommentPost}>
+        <input
+          type="text"
+          placeholder="comment"
+          value={commentText}
+          onChange={(e) => setCommentText(e.target.value)}
+        />
+      </form>
+      {comment.map((comment) => (
+        <li>-- {comment.comment}</li>
+      ))}
       <hr />
     </div>
   );
