@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Comment from "../Comment/Comment";
 const Posts = (props) => {
   const { joke } = props.posts;
   //like state
@@ -43,7 +44,7 @@ const Posts = (props) => {
         />
       </form>
       {comment.map((comment) => (
-        <li>-- {comment.comment}</li>
+        <Comment comment={comment}></Comment>
       ))}
       <hr />
     </div>
